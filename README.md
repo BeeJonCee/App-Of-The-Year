@@ -1,102 +1,70 @@
 # 📱 App of the Year
 
+Welcome to the **App of the Year** project, your beginner-friendly journey into app development with the **FNB App Academy**.
+
+---
+
 ## Week 1: HTML Foundations & GitHub Setup 🌐💻
 
-“Every masterpiece starts with a single tag.”
+You started by learning **HTML5** basics and built your first multi-page web project. You also explored **version control** with **GitHub** and **VS Code**.
 
-Welcome to the **App of the Year** project – your beginner-friendly, structured journey into app development, proudly powered by the **FNB App Academy**.
-
----
-
-### 🔥 Week 1 Highlights – HTML Bootcamp + GitHub Integration
-
-This week was all about laying the foundation.  
-You began by learning the basics of **HTML5** and built your first multi-page web project entirely from scratch.  
-Alongside that, you also took your first steps into the world of **version control** and professional developer tools like **GitHub** and **VS Code**.
+**Topics Covered:**
+- Structuring pages with HTML tags (`<p>`, `<h1>`-`<h6>`, `<a>`, `<img>`)
+- Building multi-page sites (`index.html`, `about.html`, etc.)
+- Creating image galleries and navigation
+- Organising your project workspace
 
 ---
 
-### 📚 Topics Covered
+## Week 2: Introduction to CSS & Advanced GitHub Integration 🎨🔗
 
-#### 🧱 HTML & Web Structure
+This week, you’ll learn **CSS** to style your apps—changing fonts, adding colors, and creating hover effects. You’ll also connect your local codebase in VS Code to GitHub.
 
-Creating structured pages using:
-- `<p>` for paragraphs  
-- `<h1>` to `<h6>` for headings  
-- `<a>` for links (internal and external)  
-- `<img>` for images  
+**CSS Lessons:**
+- Linking an external `style.css` file
+- Setting fonts and colors
+- Customising list bullets and using images as bullets
+- Styling navigation menus and using hover effects
+- Using `<div>` with classes/IDs for targeted styling
 
-Other skills you learned:
-- Building multi-page websites:  
-  - `index.html`  
-  - `about.html`  
-  - `boat.html`  
-- Creating image galleries using folders  
-- Linking pages and images through navigation  
-- Organising your project workspace like a pro
+**Mini-Project: Avengers App**
+- Set up your workspace and add images
+- Create bio pages for each Avenger and link images to them
+- Add a styled menu bar and additional pages (`about.html`, `contact.html`)
 
 ---
 
-## Week 2: Connecting GitHub to Visual Studio Code 🔗💡
+## GitHub + VS Code Integration Guide 🚀
 
-### 🔁 GitHub + VS Code Setup (Step-by-Step)
+**Prerequisites:**
+- [GitHub account](https://github.com/)
+- [VS Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/downloads)
 
-Let’s walk through how to connect your local codebase in VS Code to GitHub like a real dev.
+**Step-by-Step:**
+1. **Set up Git:**  
+  Configure your name and email in the terminal:
+  ```bash
+  git config --global user.name "YourGitHubUsername"
+  git config --global user.email "youremail@example.com"
+  ```
+2. **Create a GitHub repository:**  
+  Make a new repo on GitHub (leave it empty).
+3. **Initialise your project in VS Code:**  
+  Open your project folder and run:
+  ```bash
+  git init
+  ```
+4. **Add and commit your files:**
+  ```bash
+  git add .
+  git commit -m "Initial commit"
+  ```
+5. **Link to GitHub and push:**
+  ```bash
+  git remote add origin https://github.com/YourUsername/app-of-the-year.git
+  git branch -M main
+  git push -u origin main
+  ```
 
 ---
-
-### 🚀 GitHub x VS Code — Full Integration Guide
-
-#### ✅ Prerequisites
-Make sure you have:
-- A [GitHub account](https://github.com/)
-- [VS Code installed](https://code.visualstudio.com/)
-- [Git installed](https://git-scm.com/downloads)
-
----
-
-### 🧭 Step-by-Step Instructions
-
-#### Step 1: Set up Git on your computer
-
-Open **VS Code**, then launch the terminal (`Ctrl + ~` or `View > Terminal`), and enter:
-
-```bash
-git config --global user.name "YourGitHubUsername"
-git config --global user.email "youremail@example.com"
-
-bash```
-
-#### Step 2: Create a GitHub repository
-Go to github.com and log in
-Click the + icon in the top-right → New repository
-Name your repo (e.g., app-of-the-year)
-Leave it empty (don’t add README or .gitignore yet)
-Click Create repository
-
-#### Step 3: Initialise your project folder in VS Code
-Create a folder (e.g., AppOfTheYear) on your PC
-Open it with VS Code
-In the terminal, run:
-
-```bash
-git init
-
-#### Step 4: Add your files and make your first commit
-Save your .html files inside your project folder
-In the terminal, run:
-git add .
-git commit -m "Initial commit with HTML lessons"
-
-#### Step 5: Link your project to GitHub
-Copy your repository URL (from GitHub: choose HTTPS)
-In the terminal, run:
-git remote add origin https://github.com/YourUsername/app-of-the-year.git
-git branch -M main
-git push -u origin main
-
-#### Step 6: Done! 🎉
-You’ve now successfully:
-Connected VS Code to GitHub
-Pushed your project live
-Taken your first real step as a developer
