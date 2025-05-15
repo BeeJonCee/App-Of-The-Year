@@ -1,0 +1,47 @@
+h1 {
+    color: #2296c7;
+    font-size: 40px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #75ec13e0;
+    font-family: Helvetica, sans-serif;
+    text-align: right;
+}
+
+h3 {
+    font-family: Comic Sans,Comic Sans MS, cursive;
+}
+
+p {
+   font-weight: 800;
+   text-decoration: none;
+}
+
+table {
+    font-family: Helvetica, sans-serif;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2695a6;
+}
+th{
+    font-weight: 800;
+    background-color: #2695a6;
+    color: #ffffff;
+}
+
+tr.alt td {
+    background-color: #9aeffc;
+}
+
+ul {
+
+list-style-image: url('../images/pointer-icon.png');
+}
+ol{
+list-style-type: upper-roman;
+}
