@@ -4,3 +4,6 @@ color: green;
 p{
 color: coral;
 }
+.gallery img{
+width: 100%;
+}
