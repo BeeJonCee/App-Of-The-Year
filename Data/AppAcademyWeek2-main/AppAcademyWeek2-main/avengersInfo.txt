@@ -1,0 +1,155 @@
+Thor:
+
+Bio
+Full Name: Thor Odinson
+
+Place of Birth: Asgard
+
+Alignment: Good
+
+Race: Asgardian
+
+Power Stats
+Intelligence: 70%
+
+Strength: 100%
+
+Speed: 92%
+
+Durability: 100%
+
+Power: 100%
+
+Combat: 100%
+
+
+
+Iron-man:
+Bio
+Full Name: Tony Start
+
+Place of Birth: New York City
+
+Alignment: Good
+
+Race: Human
+
+Power Stats
+Intelligence: 100%
+
+Strength: 85%
+
+Speed: 58%
+
+Durability: 85%
+
+Power: 100%
+
+Combat: 64%
+
+
+Hulk:
+Bio
+Full Name: Bruce Banner
+
+Place Of Birth: Ohio
+
+Alignment: Good
+
+Gender: Male
+
+Race: Human (Radiation)
+
+
+Power Stats
+Intelligence: 88%
+
+Strength: 100%
+
+Speed: 47%
+
+Durability: 100%
+
+Power: 52%
+
+Combat: 85%
+
+
+Black-Widow:
+Bio
+Full Name: Natalia Romanova
+
+Place Of Birth: Russia
+
+Alignment: Good
+
+Gender: Female
+
+Race: Human
+
+
+Power stats
+Intelligence: 75%
+
+Strength: 13%
+
+Speed: 27%
+
+Durability: 32%
+
+Power: 39%
+
+Combat: 100%
+
+Hawkeye:
+Bio
+Full Name: Clinton Barton
+
+Place Of Birth: Iowa
+
+Alignment: Good
+
+Gender: Male
+
+Race: Human
+
+
+Power stats
+Intelligence: 50%
+
+Strength: 12%
+
+Speed: 23%
+
+Durability: 14%
+
+Power: 26%
+
+Combat: 80%
+
+
+Captain-America:
+Bio
+Full Name: Steve Rogers
+
+Place Of Birth: America
+
+Alignment: Good
+
+Gender: Male
+
+Race: Human
+
+
+Power stats
+Intelligence: 63%
+
+Strength: 19%
+
+Speed: 35%
+
+Durability: 56%
+
+Power: 55%
+
+Combat: 100%
