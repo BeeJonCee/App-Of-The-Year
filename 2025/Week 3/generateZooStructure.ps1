@@ -1,13 +1,15 @@
 # Enable script execution for current user
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 
-# Navigate 4 directories up and then to 'data/images'
+# Navigate 3 directories up and then to 'Data\AppAcademyWeek3-main\AppAcademyWeek3-main\pineCityZooImages\images'
 $imageSourcePath = Join-Path -Path (Resolve-Path "..\..\..") -ChildPath "Data\AppAcademyWeek3-main\AppAcademyWeek3-main\pineCityZooImages\images"
 
 1..6 | ForEach-Object {
     $section = $_
     $sectionPath = "Section $section"
     New-Item -ItemType Directory -Path $sectionPath -Force | Out-Null
+    New-Item -ItemType File -Path (Join-Path $sectionPath ".gitkeep") -Force | Out-Null
+    New-Item -ItemType File -Path (Join-Path $sectionPath "README.md") -Force | Out-Null
 
     1..6 | ForEach-Object {
         $lesson      = $_
@@ -19,6 +21,14 @@ $imageSourcePath = Join-Path -Path (Resolve-Path "..\..\..") -ChildPath "Data\Ap
         New-Item -ItemType Directory -Path $lessonPath -Force | Out-Null
         New-Item -ItemType Directory -Path $cssPath -Force | Out-Null
         New-Item -ItemType Directory -Path $imgPath -Force | Out-Null
+
+        # Add .gitkeep + README.md to all dirs
+        @($lessonPath, $cssPath, $imgPath) | ForEach-Object {
+            New-Item -ItemType File -Path (Join-Path $_ ".gitkeep") -Force | Out-Null
+        }
+
+        # Add empty README.md to each lesson folder
+        New-Item -ItemType File -Path (Join-Path $lessonPath "README.md") -Force | Out-Null
 
         # Copy image files
         Get-ChildItem -Path $imageSourcePath -Include *.png,*.jpg,*.jpeg,*.webp -File -Recurse | ForEach-Object {
